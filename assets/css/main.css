@@ -5,33 +5,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-	/* 小屏幕手机端 */
-	@media (min-width: 0px) and (max-width:768px) {
-		.div1{
-			width: 100px;
-			height: 100px;
-			background-color: red;
-		}
-	}
-	
-	/* 中等屏幕（桌面显示器，大于等于 992px） */
-	@media (min-width: 768px) and (max-width:992px){
-		.div1{
-			width: 300px;
-			height: 300px;
-			background-color: blue;
-		}
-	}
-	
-	/* 大屏幕（大桌面显示器，大于等于 1200px） */
-	@media (min-width: 992px) {
-		.div1{
-			width: 500px;
-			height: 500px;
-			background-color: aqua;
-		}
-	}
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2333,7 +2306,7 @@ input, select, textarea {
 				@media screen and (max-width: 736px) {
 
 					ul.icons.major li {
-						padding: 0 1sem !important;
+						padding: 0 1em !important;
 					}
 
 				}
@@ -3699,7 +3672,7 @@ input, select, textarea {
 			-ms-transition-delay: 1.25s;
 			transition-delay: 1.25s;
 			content: '';
-			background-image: url("images/banner-after.svg");
+			background-color: #000000;
 			display: block;
 			width: 100%;
 			height: 100%;
